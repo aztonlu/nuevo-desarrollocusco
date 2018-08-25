@@ -547,6 +547,77 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #eff5f5;
 }
 
+/* Section with background introduccion
+--------------------------------*/
+.sectionintroduccion-bg {
+  background: #000;
+}
+
+/* Introduccion Section
+--------------------------------*/
+#introduccion {
+  padding: 60px 0;
+}
+
+#introduccion .introduccion-img {
+  height: 510px;
+  overflow: hidden;
+}
+
+#introduccion .introduccion-img img {
+  margin-left: -15px;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #introduccion .introduccion-img {
+    height: auto;
+  }
+  #introduccion .introduccion-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#introduccion .content .h2 {
+  color: #333;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+#introduccion .content h3 {
+  color: #777;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: italic;
+}
+
+#introduccion .content p {
+  line-height: 26px;
+}
+
+#introduccion .content p:last-child {
+  margin-bottom: 0;
+}
+
+#introduccion .content i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1dc8cd;
+}
+
+#introduccion .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#introduccion .content ul li {
+  padding-bottom: 10px;
+}
+
+
+
 /* About Us Section
 --------------------------------*/
 #about {
