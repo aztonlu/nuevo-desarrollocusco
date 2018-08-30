@@ -128,6 +128,31 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+#intro .intro-img {
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media {
+    #intro .intro-img {
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+    }
+}
+
+/* For devices 400px and larger: */
+@media only screen and (min-device-width: 400px) {
+    #intro .intro-img {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  }
+}
+
+
 #intro .intro-text {
   padding-top: 140px;
   text-align: center;
@@ -550,7 +575,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Section with background introduccion
 --------------------------------*/
 .sectionintroduccion-bg {
-  background: #000;
+  background: #000;;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /* Introduccion Section
